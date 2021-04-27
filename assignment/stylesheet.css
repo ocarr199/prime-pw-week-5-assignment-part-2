@@ -18,13 +18,17 @@ padding: 15px;
 }
 /* main */
 .seeCons{
+  text-align: center;
   font-size: 2em;
-  margin:0;
+  margin:10px 600px;
   color: #aad8d3;
+background-color: #393e46;
+border-radius: 10px;
+
 }
 .middle{
   margin: 0;
-  padding: 1em;
+  padding-top: 1em;
   background-color: #eeee;
   background-image: url("record.png");
   background-repeat: space;
@@ -32,5 +36,72 @@ padding: 15px;
   position: absolute;
   width: 100%;
   height: 100%;
+
+}
+
+/* buttons */
+
+.btn {
+  border: 10px solid black;
+  font-size: 1.5em;
+  font-weight: bolder;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  color: #ff1818;
+  margin:0  10px 0;
+}
+.text{
+  background-color: white;
+
+
+}
+
+.Mac {
+background-image: url("images/SwimmingCover.jpg");
+background-size: contain;
+}
+
+.Radiohead {
+  background-image: url("images/InRainbows.jpg");
+  background-size: contain;
+}
+
+.BH {
+  background-image: url("images/Saturation.jpg");
+  background-size: contain;
+}
+
+.Earl {
+  background-image: url("images/Earl.jpg");
+  background-size: contain;
+}
+
+.PF {
+  background-image: url("images/Animals.jpg");
+  background-size: contain;
+}
+
+.disc{
+  font-size: 3em;
+  background-color: #393e46;
+  color: #aad8d3;
+  margin:0 20%;
+  border-radius: 15px;
+}
+.instructions{
+  margin: 0;
+}
+.reset{
+  border: 4px solid black;
+  font-size: .5em;
+  font-weight: bolder;
+  border-radius: 15px;
+  display: inline-block;
+  width: 120px;
+  height: 70px;
+  text-align: center;
+  background-color: white;
+  color: #ff1818;
 
 }
